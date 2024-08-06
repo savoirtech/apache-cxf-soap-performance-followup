@@ -134,10 +134,10 @@ IBM running the Clients).
 
 | Clients | Target Invocations/Second per client | Quick Test (Reality) per client |
 |----|----|----|
-| 1 | 34722.2 |  |
-| 8 | 4340.27 |  |
-| 16 | 2170.14 |  |
-| 32 | 1085.07 |  |
-| 64 | 542.53 |  |
+| 1 | 34722.2 | 803.82 (re-ran test to confirm value) |
+| 8 | 4340.27 | 1366.39 |
+| 16 | 2170.14 | 1033.03 |
+| 32 | 1085.07 | 548.34 |
+| 64 | 542.53 | 275.75 |
 | **100** | ***347.2*** |  |
 | 128 | 271.27 |  |

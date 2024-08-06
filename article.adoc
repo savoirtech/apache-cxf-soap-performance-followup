@@ -120,23 +120,23 @@ Given our goal of achieving 1 Billion invocations in an eight-hour period, lets 
 
 | 1
 | 34722.2
-|
+| 803.82 (re-ran test to confirm value)
 
 | 8
 | 4340.27
-|
+| 1366.39
 
 | 16
 | 2170.14
-|
+| 1033.03
 
 | 32
 | 1085.07
-|
+| 548.34
 
 | 64
 | 542.53
-|
+| 275.75
 
 | *100*
 | *_347.2_*
