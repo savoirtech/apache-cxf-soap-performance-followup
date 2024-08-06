@@ -87,7 +87,7 @@ Overall AVG. response time: 3.2802176194588073 (ms)
 ============================================
 ```
 
-## How does that compare to our tuned G1CC Java 17 test?
+## How does that compare to our tuned G1GC Java 17 test?
 
 In this iteration we did not tune ZGC, we only use its defaults. The
 final throughput came in at 877,995,015 invocations — significantly
