@@ -109,8 +109,32 @@ This resulted in:
 
 ``` bash
 =============Overall Test Result============
-Overall Throughput: echoComplexTypeDoc ??? (invocations/sec)
-Overall AVG. response time: ??? (ms)
-??? (invocations), running ??? (sec)
+Overall Throughput: echoComplexTypeDoc 171.77497864493685 (invocations/sec)
+Overall AVG. response time: 5.821569636559379 (ms)
+4.94715503E8 (invocations), running 2880020.751 (sec)
 ============================================
 ```
+
+That outcome was not expected…​
+
+Lets run a few quick tests to see where to dial in client numbers for
+this system.
+
+## Theory Time!
+
+Given our goal of achieving 1 Billion invocations in an eight-hour
+period, lets take a look at what velocity our clients will need to
+maintain to collectively reach our goal line. Before setting up a full
+testing run, we run a 60-second quick test to see what throughput we
+might expect to see on our lab hardware (Intel running the Server-Side,
+IBM running the Clients).
+
+| Clients | Target Invocations/Second per client | Quick Test (Reality) per client |
+|----|----|----|
+| 1 | 34722.2 |  |
+| 8 | 4340.27 |  |
+| 16 | 2170.14 |  |
+| 32 | 1085.07 |  |
+| 64 | 542.53 |  |
+| **100** | ***347.2*** |  |
+| 128 | 271.27 |  |
