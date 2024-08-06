@@ -106,6 +106,8 @@ Overall AVG. response time: 5.821569636559379 (ms)
 
 That outcome was not expected...
 
+The Intel Server - IBM Client system managed to process 494,715,503 in eight hours - less than half the throughput.
+
 Lets run a few quick tests to see where to dial in client numbers for this system.
 
 === Theory Time!
