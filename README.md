@@ -77,13 +77,15 @@ This resulted in:
 
 ``` bash
 =============Overall Test Result============
-Overall Throughput: echoComplexTypeDoc ??? (invocations/sec)
-Overall AVG. response time: ??? (ms)
-??? (invocations), running ??? (sec)
+Overall Throughput: echoComplexTypeDoc 304.85782225783754 (invocations/sec)
+Overall AVG. response time: 3.2802176194588073 (ms)
+8.77995015E8 (invocations), running 2880014.718 (sec)
 ============================================
 ```
 
-Note: in this iteration we do not tune ZGC, we only use its defaults.
+In this iteration we did not tune ZGC, we only use its defaults. The
+final throughput came in at 877,995,015 invocations — significantly
+behind all our other runs.
 
 # Can you run this using GraalVM?
 
