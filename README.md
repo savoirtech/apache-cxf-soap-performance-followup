@@ -7,6 +7,10 @@ eight-hour period. This lead to several readers reaching out with
 suggestions for tweaks to the scenarios run, or entirely new
 configurations. In this post we seek to provide some answers.
 
+<figure>
+<img src="./assets/images/CXFLab.png" alt="CXFLab" />
+</figure>
+
 ## Brief Recap
 
 After several iterations we found that we could reach our target using
