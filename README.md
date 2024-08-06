@@ -21,7 +21,7 @@ $mvn -Pserver -Dhost=0.0.0.0 -Dprotocol=http
 ```
 
 ``` bash
-$mvn mvn -Pclient -Dhost=192.168.50.154 -Dprotocol=http -Doperation=echoComplexTypeDoc -Dthreads=100 -Dtime=28800
+$mvn -Pclient -Dhost=192.168.50.154 -Dprotocol=http -Doperation=echoComplexTypeDoc -Dthreads=100 -Dtime=28800
 ```
 
 This resulted in:
@@ -70,7 +70,7 @@ $mvn -Pserver -Dhost=0.0.0.0 -Dprotocol=http
 ```
 
 ``` bash
-$mvn mvn -Pclient -Dhost=192.168.50.154 -Dprotocol=http -Doperation=echoComplexTypeDoc -Dthreads=100 -Dtime=28800
+$mvn -Pclient -Dhost=192.168.50.154 -Dprotocol=http -Doperation=echoComplexTypeDoc -Dthreads=100 -Dtime=28800
 ```
 
 This resulted in:
