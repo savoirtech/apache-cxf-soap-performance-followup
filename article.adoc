@@ -46,6 +46,9 @@ Overall AVG. response time: 2.9940070314492293 (ms)
 ============================================
 ----
 
+=== How does that compare to our last Java 21 test?
+
+In our prior lab test we achieved 924,006,644 invocations in eight-hours, this run provided 961,925,455 - a delta improvement of 37,918,811 invocations. Still well short of the 1 Billion goal.
 
 == Can you try Java 17 with Zero GC instead of G1GC?
 
