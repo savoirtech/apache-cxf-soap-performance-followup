@@ -140,10 +140,22 @@ Given our goal of achieving 1 Billion invocations in an eight-hour period, lets 
 
 | *100*
 | *_347.2_*
-|
+| *_179.31_* (prior system thread count)
 
 | 128
 | 271.27
-|
+| 142.45
+
+| 256
+| 135.63
+| 70.24
+
+| 512
+| 67.81
+| 36.75
+
+| 1024
+| 33.90
+| 20.03
 |===
 
