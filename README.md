@@ -144,3 +144,6 @@ IBM running the Clients).
 | 256 | 135.63 | 70.24 |
 | 512 | 67.81 | 36.75 |
 | 1024 | 33.90 | 20.03 |
+
+The pairing tests does not suggest a possible convergence point which
+would suggest a 1 Billion invocation run would be successful.
