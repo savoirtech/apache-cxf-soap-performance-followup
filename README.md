@@ -3,7 +3,9 @@
 In our last
 [post](https://github.com/savoirtech/apache-cxf-soap-performance), we
 recounted our journey to processing 1 Billion SOAP invocations in an
-eight-hour period.
+eight-hour period. This lead to several readers reaching out with
+suggestions for tweaks to the scenarios run, or entirely new
+configurations. In this post we seek to provide some answers.
 
 ## Brief Recap
 
