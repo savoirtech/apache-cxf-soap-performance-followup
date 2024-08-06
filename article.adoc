@@ -78,7 +78,9 @@ Overall AVG. response time: 3.2802176194588073 (ms)
 ============================================
 ----
 
-In this iteration we did not tune ZGC, we only use its defaults. The final throughput came in at 877,995,015 invocations -- significantly behind all our other runs.
+=== How does that compare to our tuned G1CC Java 17 test?
+
+In this iteration we did not tune ZGC, we only use its defaults. The final throughput came in at 877,995,015 invocations -- significantly behind all our other runs. We could likely spend some time improving the configuration for this GC strategy.
 
 == Can you run this using GraalVM?
 
