@@ -40,9 +40,9 @@ This resulted in:
 [,bash,linenum]
 ----
 =============Overall Test Result============
-Overall Throughput: echoComplexTypeDoc ??? (invocations/sec)
-Overall AVG. response time: ??? (ms)
-??? (invocations), running ??? (sec)
+Overall Throughput: echoComplexTypeDoc 334.0005516005607 (invocations/sec)
+Overall AVG. response time: 2.9940070314492293 (ms)
+9.61925455E8 (invocations), running 2880011.5759999994 (sec)
 ============================================
 ----
 
